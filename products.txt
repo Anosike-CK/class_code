@@ -1,0 +1,1 @@
+{'clothing': {'T-shirt': 300, 'Shoe': 5000, 'skirt': 3500}, 'Confectionery': {'chocolates': 300, 'biscuits': 100, 'lollipop': 10}, 'Food': {'beans': 100, 'fish': 200, 'rice': 200, 'garri': 300, 'meat': 400}}

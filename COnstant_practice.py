@@ -1,0 +1,4 @@
+PI = 4.8
+GRAVITY = 9
+
+print(GRAVITY)
