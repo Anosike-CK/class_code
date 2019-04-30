@@ -34,8 +34,7 @@ class Bank:
         print(f' your account number is {account_number}')
 
       
-    def customer_login(self):
-        
+    def customer_login(self):        
 
         user_name = input('Please enter your user name : ')
         customer_password = input('Please enter a password for your login : ')
@@ -69,8 +68,7 @@ class Bank:
             print('Hello {}:\t\n'.format(customer))
             print('Name'.center(13), 'Account Type'. center(30), 'Account Number'.center(5), 'Account Balance'.center(10))
 
-
-            print(customer_profile['name'].center(13), customer_profile['sex'].center(30),  str(customer_profile['account number']).center(10),  str(customer_profile['account balance']).center(15))
+            print(customer_profile['name'].center(13), customer_profile['account type'].center(30),  str(customer_profile['account number']).center(10),  str(customer_profile['account balance']).center(15))
 
             
 class CustomerProfile:

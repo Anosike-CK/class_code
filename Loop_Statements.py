@@ -123,8 +123,8 @@
 
 #Odd number counter
 
-number_odd = 0
-number_even = 0
+# number_odd = 0
+# number_even = 0
 
 # for i in range (50):
 
@@ -140,15 +140,14 @@ number_even = 0
 
 
 
-for i in range (50):
+# for i in range (50):
 
-        number_even += 1
+#         number_even += 1
 
-        if (i % 2 != 0): 
+#         if (i % 2 != 0): 
 
-                print(f"{i} is an even number")
-                number_odd += 1       #increase odd number count
-        else:
-                number_even += 1      #increase even number count
+#                 print(f"{i} is an even number")
+#                 number_odd += 1       #increase odd number count
+#         else:
+#                 number_even += 1      #increase even number count
         
-
